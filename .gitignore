@@ -1,0 +1,19 @@
+# 金鑰與環境設定（Colab 連結會公開，金鑰只能放 Colab Secrets）
+.env
+*.key
+*secret*
+
+# 原始掃描 PDF 檔案大，不進 git
+source_pdf/
+
+# 解壓暫存與 notebook 執行輸出
+*_download/
+*_output.ipynb
+rag-data/
+.ipynb_checkpoints/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
